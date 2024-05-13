@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    background-color: white;
+}
+
+main{
+    list-style-type: none;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    line-height: 2;
+}
+
+h1{ 
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 50px;
+    background-color: rgb(113, 156, 173);
+    margin: 0px;
+    padding: 0px;
+    padding-top: 30px;
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(113, 156, 173);
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color:white;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-weight: bold;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(56, 56, 56);
+    transition: color 0.2s;
+}
+.navbar li{
+    float: left;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+    font-family: Helvetica;
+}
+
+.contact-box{
+    background-color:rgb(113, 156, 173);
+    display: flex;
+}
+.contact-left{
+    flex-basis:60%;
+    padding: 40px 60px;
+}
+
+.contact-right{
+    flex-basis:60%;
+    padding: 40px;
+    background-color: rgb(192, 192, 192)
+}
+
+h2{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom:  1px solid #ccc;
+    outline: none;
+    padding: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline:none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+}
+button{
+    width: 80px;
+    height: 35px;
+    margin-top: 20px;
+
+}
+
+.contact-left h3{
+    color:black;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
+
+.social-links li{
+    display: inline;
+    float: right;
+    text-decoration: none;
+    margin-top: 4px;
+}
