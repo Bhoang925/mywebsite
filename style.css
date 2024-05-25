@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0px;
     background-color: white;
@@ -137,3 +139,83 @@ tr td{
     text-decoration: none;
     margin-top: 4px;
 }
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .navbar ul{
+        list-style-type: none;
+        background-color: rgb(113, 156, 173);
+        font-size: 12px;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+    }
+    
+    .navbar a {
+        color:white;
+        text-decoration: none;
+        font-family: Helvetica;
+        font-weight: bold;
+        padding: 6px;
+        display: flex;
+        text-align: center;
+    }
+
+    h1{ 
+        color: white;
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 30px;
+        background-color: rgb(113, 156, 173);
+        margin: 0px;
+        padding: 0px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    
+    }
+
+    .social-links li{
+        display: inline;
+        float: right;
+        text-decoration: none;
+        margin-top: 4px;
+    }
+
+    main{
+        list-style-type: none;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+        line-height: 2;
+    }
+
+    .contact-box{
+        background-color:rgb(113, 156, 173);
+        display: block;
+    }
+
+    .contact-left{
+        flex-basis:60%;
+        padding: 40px 30px;
+    }
+
+    .contact-right h3{
+        font-weight: 600;
+        margin-bottom: 30px;
+    
+    }
+
+    .contact-right table td a {
+        display: inline-block;
+        white-space: nowrap;
+        max-width: 180px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: top;
+    }
+
+    
+}
+
