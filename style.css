@@ -210,12 +210,19 @@ tr td{
     .contact-right table td a {
         display: inline-block;
         white-space: nowrap;
-        max-width: 180px;
+        max-width: 200px;
         overflow: hidden;
         text-overflow: ellipsis;
         vertical-align: top;
     }
 
+    tr td:first-child{
+        padding-right: 5px;
+    }
+    
+    tr td{
+        padding-top: 20px;
+    }
     
 }
 
