@@ -1,9 +1,9 @@
 
 body{
     margin: 0px;
-    background-image: url(../images/website-background.jpg);
+    background-image: url(website-background.jpg);
     background-color: black;
-    background-size: auto;
+    background-size: 20% 20%;
     
 }
 .headshot{
@@ -37,8 +37,8 @@ main{
 }
 
 h1{ 
-    background-image: url(../images/website-background-medium.jpg);
-    background-size: 100% 100%;
+    background-image: url(website-background-medium.jpg);
+    background-size: 5% 5%;
     background-size: cover;
     background-color: black;
     
@@ -53,8 +53,8 @@ h1{
 }
 
 .navbar ul{
-    background-image: url(../images/website-background-medium.jpg);
-    background-size: 50% 50%;
+    background-image: url(website-background-medium.jpg);
+    background-size: 5% 5%;
 
     background-size: cover;
 
@@ -177,7 +177,7 @@ tr td{
 @media only screen and (max-width: 800px) {
     body{
         margin: 0px;
-        background-image: url(../images/website-background.jpg);
+        background-image: url(website-background.jpg);
         background-color: black;
         background-size: auto;
         
@@ -204,7 +204,7 @@ tr td{
     }
 
     .navbar ul{
-        background-image: url(../images/website-background-medium.jpg);
+        background-image: url(website-background-medium.jpg);
         background-size: auto;
         list-style-type: none;
         background-color: black;
@@ -225,7 +225,7 @@ tr td{
     }
 
     h1{ 
-        background-image: url(../images/website-background-medium.jpg);
+        background-image: url(website-background-medium.jpg);
         background-size: auto;
         color: white;
         text-align: center;
